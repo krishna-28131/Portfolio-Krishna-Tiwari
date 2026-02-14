@@ -95,3 +95,13 @@ footer { text-align: center; padding: 20px; color: var(--text-gray); font-size: 
     .contact-container { flex-direction: column; }
     .nav-links.active { display: flex; flex-direction: column; position: absolute; top: 70px; right: 0; width: 100%; background: var(--card-bg); padding: 20px; }
 }
+
+/* Project Images Styling */
+.project-card img {
+    width: 100%;
+    height: 180px; /* Sabhi images barabar height ki hongi */
+    object-fit: cover; /* Photo kategi nahi, adjust ho jayegi */
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(56, 189, 248, 0.3);
+}
